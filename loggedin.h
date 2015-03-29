@@ -9,7 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface loggedin : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *eventTitleField;
+@property (weak, nonatomic) IBOutlet UIButton *exportbutton;
+@property (weak, nonatomic) IBOutlet UIButton *appInfoButton;
+@property (weak, nonatomic) IBOutlet UIButton *eventTitleButton;
+
 
 - (IBAction)logout:(id)sender;
+- (IBAction)appInfo:(id)sender;
+- (IBAction)ExportInfo:(id)sender;
+
 
 @end

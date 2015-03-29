@@ -10,6 +10,15 @@
 
 @interface SecondViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *firstName;
+@property (weak, nonatomic) IBOutlet UITextField *lastName;
+@property (weak, nonatomic) IBOutlet UITextField *email;
+@property (weak, nonatomic) IBOutlet UITextField *major;
+@property (weak, nonatomic) IBOutlet UITextField *interest;
+@property (weak, nonatomic) IBOutlet UITextField *month;
+@property (weak, nonatomic) IBOutlet UITextField *year;
 
+@property (weak, nonatomic) IBOutlet UIButton *signButton;
+- (IBAction)signInNow:(UIButton *)sender;
 @end
 

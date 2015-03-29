@@ -7,10 +7,11 @@
 //
 
 #import "SecondViewController.h"
+//#import "loggedin.h"
 
 @interface SecondViewController ()
-
 @end
+
 
 @implementation SecondViewController
 
@@ -24,4 +25,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)signInNow:(UIButton *)sender {
+}
 @end
+
+/*@interface loggedin ()
+@end
+
+@implementation loggedin
+
+
+- (IBAction)appInfo:(id)sender {
+}
+
+- (IBAction)ExportInfo:(id)sender {
+}
+
+- (IBAction)export:(id)sender {
+}
+
+@end*/

@@ -36,4 +36,13 @@
 - (IBAction)logout:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (IBAction)appInfo:(id)sender {
+    [self performSegueWithIdentifier:@"signinfo" sender:self];}
+
+- (IBAction)ExportInfo:(id)sender {
+}
+
+- (IBAction)export:(id)sender {
+}
 @end

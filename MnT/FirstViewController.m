@@ -95,7 +95,7 @@
         [self performSegueWithIdentifier:@"login" sender:self];
     }
     else {
-        UIAlertView *error = [[UIAlertView alloc] initWithTitle:@"Oooops" message:@"Your username and password does not match" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        UIAlertView *error = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Your username and password does not match" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [error show];
     }
