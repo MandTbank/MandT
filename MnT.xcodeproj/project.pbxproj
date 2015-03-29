@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733EE0381AC79A3900BEB8AC /* loggedin.m in Sources */ = {isa = PBXBuildFile; fileRef = 733EE0371AC79A3900BEB8AC /* loggedin.m */; };
 		73B3989D1AAF6F3400AFC74E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3989C1AAF6F3400AFC74E /* main.m */; };
 		73B398A01AAF6F3400AFC74E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3989F1AAF6F3400AFC74E /* AppDelegate.m */; };
 		73B398A31AAF6F3400AFC74E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B398A21AAF6F3400AFC74E /* FirstViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		733EE0371AC79A3900BEB8AC /* loggedin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loggedin.m; sourceTree = "<group>"; };
+		733EE0391AC79A6200BEB8AC /* loggedin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = loggedin.h; path = ../loggedin.h; sourceTree = "<group>"; };
 		73B398971AAF6F3400AFC74E /* MnT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MnT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B3989B1AAF6F3400AFC74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B3989C1AAF6F3400AFC74E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				73B3989F1AAF6F3400AFC74E /* AppDelegate.m */,
 				73B398A11AAF6F3400AFC74E /* FirstViewController.h */,
 				73B398A21AAF6F3400AFC74E /* FirstViewController.m */,
+				733EE0391AC79A6200BEB8AC /* loggedin.h */,
+				733EE0371AC79A3900BEB8AC /* loggedin.m */,
 				73B398A41AAF6F3400AFC74E /* SecondViewController.h */,
 				73B398A51AAF6F3400AFC74E /* SecondViewController.m */,
 				73B398A71AAF6F3400AFC74E /* Main.storyboard */,
@@ -226,6 +231,7 @@
 			files = (
 				73B398A61AAF6F3400AFC74E /* SecondViewController.m in Sources */,
 				73B398A01AAF6F3400AFC74E /* AppDelegate.m in Sources */,
+				733EE0381AC79A3900BEB8AC /* loggedin.m in Sources */,
 				73B398A31AAF6F3400AFC74E /* FirstViewController.m in Sources */,
 				73B3989D1AAF6F3400AFC74E /* main.m in Sources */,
 			);
@@ -420,6 +426,7 @@
 				73B398BF1AAF6F3400AFC74E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B398C01AAF6F3400AFC74E /* Build configuration list for PBXNativeTarget "MnTTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				73B398C21AAF6F3400AFC74E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
